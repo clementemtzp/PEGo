@@ -3,6 +3,7 @@ import "fmt"
 func main() {
 	var num int;
 	var suma int =0
+	fmt.Println("Ingrese un numero")
 	fmt.Scanf("%d", &num)
 	for i := 1; i <= num; i++ {
 		if i%3==0 || i%5==0{
@@ -10,5 +11,5 @@ func main() {
 			suma+=i
 		}
 	}
-	fmt.Println("Suma es:", suma)
+	fmt.Println("La suma es:", suma)
 }
