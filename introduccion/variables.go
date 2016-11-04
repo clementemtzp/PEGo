@@ -8,5 +8,4 @@ var y string ="Variable dos" //segunda forma de declarar variables
 fmt.Println(y)
 var d ="Max"
 fmt.Println("Mi perro se llama ",d)
-
 }
